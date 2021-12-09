@@ -1,0 +1,530 @@
+* {
+    font-family: FuturaStdBook,sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0%;
+}
+.div1{
+    font-size: 14px;
+    padding-top: 15px;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    background-color: #f2b844;
+}
+.div2{
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    box-shadow: 0,10px,10 ;
+}
+
+.navicons{
+    cursor: pointer;
+    width: 150px;
+    height: 70px;
+    margin-left: 92%;
+    margin-top: -40px;
+}
+.div3{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    background-color:#f0f0f0 ;
+}
+.logo{
+    margin-left: 30px;
+    margin-right: 580px;
+    margin-top: 5px;
+    width: 70px;
+    height: 50px;
+}
+.div2opt{
+    color: black;
+    font-size: 13px;
+    text-decoration: none;
+    margin-left: 40px;
+}
+.div3photo1{
+    width: 30px;
+    height: 30px;
+}
+.div3photo{
+    width: 30px;
+    height: 30px;
+}
+.div3opt{
+    font-size: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+}
+.div3opt:hover{
+text-decoration:underline black;
+}
+.div4{
+    position: relative;
+    width: auto;
+}
+.heading{
+    margin-top: 20px;
+    font-weight: 100;
+    font-size: 18px;
+    text-align: center;
+}
+.mainphoto1{
+    width: 100%;
+}
+.photodesc{
+    font-weight: 300;
+    font-size: 45px;
+    position: absolute;
+    right: 210px;
+    top: 185px;
+}
+.photodescpara{
+    font-weight: 300;
+    font-size: 20px;
+    position: absolute;
+    right: 210px;
+    top: 285px;
+}
+.btn1,.btn2{
+    font-size:15px ;
+    width: 230px;
+    height: 50px;
+    background-color:black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    position: absolute;
+    right: 310px;
+}
+.btn1{
+    top: 365px;
+}
+.btn2{
+    top: 425px;
+}
+.btn1:hover,.btn2:hover{
+    text-decoration: underline;
+}
+.div5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.div5heading{
+    text-align: center;
+    font-weight: 100;
+    font-size: 17px;
+}
+.sets1{
+    background-color: rgb(221, 219, 219);
+    width: 400px;
+    height: 400px;
+    background-image: url(images/eyeware1main.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.sets1:hover{
+    background-image: url(images/eyewear1.webp);
+}
+.sets2{
+    background-color: rgb(221, 219, 219);
+    width: 400px;
+    height: 400px;
+    background-image: url(images/eyewear2main.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.sets2:hover{
+    background-image: url(images/eveywear2.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sets3{
+    background-color: rgb(221, 219, 219);
+    width: 400px;
+    height: 400px;
+    background-image: url(images/eyewear3main.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sets3:hover{
+    background-image: url(images/eyewear3.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sets4{
+    background-color: rgb(221, 219, 219);
+    width: 400px;
+    height: 400px;
+    background-image: url(images/eyewear4main.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sets4:hover{
+    background-image: url(images/eyewear4.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.mainphoto2{
+    margin-left: 40px;
+    margin-top: 150px;
+    width: 95%;
+}
+.mainphoto2des{
+    font-weight: 100;
+    font-size: 40px;
+    text-align: center;
+    position: absolute;
+    top: 2117px;
+    left: 890px;
+}
+.mainphoto2para{
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top: 2260px;
+    left: 970px;
+}
+.mainphoto2link{
+    color: black;
+    font-weight: 100;
+    font-size: 17px;
+    text-align: center;
+    position: absolute;
+    top: 2360px;
+    left: 970px;
+}
+.div6{
+    height: 500px;
+    width: 100%;
+    margin-bottom: 300px;
+}
+.contentrate{
+    width: 100%;
+    height: 300px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;   
+}
+
+.rate1,.rate2,.rate3,.rate4{
+    font-size: 14px;
+width: 400px;
+height: 300px;
+}
+.div7{
+    height: 765%;
+    width: 100%;
+}
+.mainphoto3{
+    width: 40%;
+    margin-left: 100px;
+}
+.btn3,.btn4{
+    font-size:15px ;
+    width: 230px;
+    height: 50px;
+    background-color:black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    position: absolute;
+    right: 310px;
+}
+.btn3{
+    top: 3039px;
+}
+.btn4{
+    top: 2979px;
+}
+.btn3:hover,.btn4:hover{
+    text-decoration: underline;
+}
+.mainphotohead{
+    font-weight: 100;
+    font-size: 45px;
+    margin-left: 1000px;
+    margin-top: -650px;
+    text-align: center;
+}
+.mainphoto3para{
+    color: black;
+    font-weight: 100;
+    font-size: 19px;
+    margin-left:1010px;
+    text-align: center;
+}
+.div8{
+    display: flex;
+    flex-direction: column;
+    margin-top: 530px;
+    width: 100%;
+    height: 450px;
+}
+.div8content{
+    width: 100%;
+    height: inherit;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.div8head{
+    font-size: 19px;
+    font-weight: 100;
+    text-align: center;
+
+}
+.sets5{
+    background-color: rgb(221, 219, 219);
+    width: 400px;
+    height: 400px;
+    background-image: url(images/eyewear5main.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.sets5:hover{
+    background-image: url(images/eyewear5.webp);
+}
+.sets6{
+    background-color: rgb(221, 219, 219);
+    width: 400px;
+    height: 400px;
+    background-image: url(images/eyewear6main.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.sets6:hover{
+    background-image: url(images/eyewear6.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sets7{
+    background-color: rgb(221, 219, 219);
+    width: 400px;
+    height: 400px;
+    background-image: url(images/eyewear7main.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sets7:hover{
+    background-image: url(images/eyewear7.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sets8{
+    background-color: rgb(221, 219, 219);
+    width: 400px;
+    height: 400px;
+    background-image: url(images/eyewear8main.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sets8:hover{
+    background-image: url(images/eyewear8.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.div9{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 900px;
+}
+.div9left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 700px;
+}
+.div9right{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 500px;
+}
+.mainphoto4{
+    margin-left: 80px;
+    width: 80%;
+}
+.photo4para{
+    margin-top: -10px;
+    font-size:18px;
+    font-weight: 100;
+}
+.photo4head{
+
+    font-size :39px;
+    font-weight: 100;
+}
+.btn5{
+    font-size:15px ;
+    width: 230px;
+    height: 50px;
+    background-color:black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+.btn5:hover{
+    text-decoration: underline;
+}
+.div10{
+    
+    background-image: url(images/mainphoto5.webp);
+    background-repeat: no-repeat;
+    background-size: 95%;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 800px;
+}
+
+.mainphoto5des{
+    margin-left: 89px;
+    font-weight: 100;
+    font-size: 45px;
+
+}
+.mainphoto5para{
+    text-align: center;
+    font-weight: 100;
+    font-size: 24px;
+
+}
+.detailsdiv10{
+    padding-left: 790px;
+    padding-top: 290px;
+    display: flex;
+    flex-direction: column;
+}
+.div11{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: solid 1px;
+    width: 100%;
+    height: 200px;
+}
+.div11head{
+    font-size: 25px;
+    font-weight: 100;
+    margin-bottom: -3px;
+}
+.div11para{
+    font-weight: 100;
+    font-size: 15px;
+}
+.btnsbscrb{
+    width: 160px;
+    height: 40px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.div12{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    width: 100%;
+    height: 90px;
+    background-color: black;
+
+}
+.div12opt{
+    cursor: pointer;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.div13{
+    width: 100%;
+    height: 80px;
+}
+.div13para{
+    padding-left: 34px;
+    margin: 0;
+    padding-top: 20px;
+    background-image: url(images/lockicon.svg);
+    background-repeat: no-repeat;
+    background-position: 10px 14px;
+    background-size: 18px;
+    font-size: 14px;
+
+}
+.div14{
+    border-top: solid 1px rgb(170, 169, 169);
+    border-bottom: solid 1px rgb(170, 169, 169);
+    width: 100%;
+    height: 80px;
+}
+.paymenticon{
+    width: 35px;
+    margin-right: 2px;
+}
+.divpayment{
+    margin-top: -25px;
+    margin-left: 86%;
+}
+.div14{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footerlogo{
+    margin-top: 25px;
+    cursor: pointer;
+    width: 20px;
+    margin-left: 20px;
+}
+.divfinal{
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+}
+.footerfinaldata{
+    margin-top: 12px;
+    color: black;
+}
+.flag{
+    margin-left: 73%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.flaglogo{
+    cursor: pointer;
+    width: 60px;
+    height: 30px;
+}
+.usa{
+    font-weight: 100;
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.usa:hover{
+    text-decoration: underline;
+}
